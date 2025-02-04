@@ -1,0 +1,10 @@
+C:\Users\Loc Nguyen\source\repos\Lab6Ex1\Lab6Ex1\bin\Debug\Lab6Ex1.exe.config
+C:\Users\Loc Nguyen\source\repos\Lab6Ex1\Lab6Ex1\bin\Debug\Lab6Ex1.exe
+C:\Users\Loc Nguyen\source\repos\Lab6Ex1\Lab6Ex1\bin\Debug\Lab6Ex1.pdb
+C:\Users\Loc Nguyen\source\repos\Lab6Ex1\Lab6Ex1\obj\Debug\Lab6Ex1.csproj.AssemblyReference.cache
+C:\Users\Loc Nguyen\source\repos\Lab6Ex1\Lab6Ex1\obj\Debug\Lab6Ex1.frmDVDCatalog.resources
+C:\Users\Loc Nguyen\source\repos\Lab6Ex1\Lab6Ex1\obj\Debug\Lab6Ex1.Properties.Resources.resources
+C:\Users\Loc Nguyen\source\repos\Lab6Ex1\Lab6Ex1\obj\Debug\Lab6Ex1.csproj.GenerateResource.cache
+C:\Users\Loc Nguyen\source\repos\Lab6Ex1\Lab6Ex1\obj\Debug\Lab6Ex1.csproj.CoreCompileInputs.cache
+C:\Users\Loc Nguyen\source\repos\Lab6Ex1\Lab6Ex1\obj\Debug\Lab6Ex1.exe
+C:\Users\Loc Nguyen\source\repos\Lab6Ex1\Lab6Ex1\obj\Debug\Lab6Ex1.pdb

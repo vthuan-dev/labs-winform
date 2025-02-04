@@ -1,0 +1,10 @@
+C:\Users\Loc Nguyen\source\repos\Lap1Ex1\Lap1Ex1\bin\Debug\Lap1Ex1.exe.config
+C:\Users\Loc Nguyen\source\repos\Lap1Ex1\Lap1Ex1\bin\Debug\Lap1Ex1.exe
+C:\Users\Loc Nguyen\source\repos\Lap1Ex1\Lap1Ex1\bin\Debug\Lap1Ex1.pdb
+C:\Users\Loc Nguyen\source\repos\Lap1Ex1\Lap1Ex1\obj\Debug\Lab1Ex1.csproj.AssemblyReference.cache
+C:\Users\Loc Nguyen\source\repos\Lap1Ex1\Lap1Ex1\obj\Debug\Lap1Ex1.StudentDetails.resources
+C:\Users\Loc Nguyen\source\repos\Lap1Ex1\Lap1Ex1\obj\Debug\Lap1Ex1.Properties.Resources.resources
+C:\Users\Loc Nguyen\source\repos\Lap1Ex1\Lap1Ex1\obj\Debug\Lab1Ex1.csproj.GenerateResource.cache
+C:\Users\Loc Nguyen\source\repos\Lap1Ex1\Lap1Ex1\obj\Debug\Lab1Ex1.csproj.CoreCompileInputs.cache
+C:\Users\Loc Nguyen\source\repos\Lap1Ex1\Lap1Ex1\obj\Debug\Lap1Ex1.exe
+C:\Users\Loc Nguyen\source\repos\Lap1Ex1\Lap1Ex1\obj\Debug\Lap1Ex1.pdb

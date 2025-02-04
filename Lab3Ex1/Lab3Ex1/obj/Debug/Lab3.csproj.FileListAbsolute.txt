@@ -1,0 +1,10 @@
+C:\Users\Loc Nguyen\source\repos\Lab3Ex1\Lab3Ex1\bin\Debug\Lab3Ex1.exe.config
+C:\Users\Loc Nguyen\source\repos\Lab3Ex1\Lab3Ex1\bin\Debug\Lab3Ex1.exe
+C:\Users\Loc Nguyen\source\repos\Lab3Ex1\Lab3Ex1\bin\Debug\Lab3Ex1.pdb
+C:\Users\Loc Nguyen\source\repos\Lab3Ex1\Lab3Ex1\obj\Debug\Lab3.csproj.AssemblyReference.cache
+C:\Users\Loc Nguyen\source\repos\Lab3Ex1\Lab3Ex1\obj\Debug\Lab3Ex1.frmBookSale.resources
+C:\Users\Loc Nguyen\source\repos\Lab3Ex1\Lab3Ex1\obj\Debug\Lab3Ex1.Properties.Resources.resources
+C:\Users\Loc Nguyen\source\repos\Lab3Ex1\Lab3Ex1\obj\Debug\Lab3.csproj.GenerateResource.cache
+C:\Users\Loc Nguyen\source\repos\Lab3Ex1\Lab3Ex1\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\Loc Nguyen\source\repos\Lab3Ex1\Lab3Ex1\obj\Debug\Lab3Ex1.exe
+C:\Users\Loc Nguyen\source\repos\Lab3Ex1\Lab3Ex1\obj\Debug\Lab3Ex1.pdb

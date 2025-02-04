@@ -1,0 +1,11 @@
+C:\Users\Loc Nguyen\source\repos\Lab2Ex2\Lab2Ex2\bin\Debug\Lab2Ex2.exe.config
+C:\Users\Loc Nguyen\source\repos\Lab2Ex2\Lab2Ex2\bin\Debug\Lab2Ex2.exe
+C:\Users\Loc Nguyen\source\repos\Lab2Ex2\Lab2Ex2\bin\Debug\Lab2Ex2.pdb
+C:\Users\Loc Nguyen\source\repos\Lab2Ex2\Lab2Ex2\obj\Debug\Lab2Ex2.csproj.AssemblyReference.cache
+C:\Users\Loc Nguyen\source\repos\Lab2Ex2\Lab2Ex2\obj\Debug\Lab2Ex2.Login.resources
+C:\Users\Loc Nguyen\source\repos\Lab2Ex2\Lab2Ex2\obj\Debug\Lab2Ex2.Form2.resources
+C:\Users\Loc Nguyen\source\repos\Lab2Ex2\Lab2Ex2\obj\Debug\Lab2Ex2.Properties.Resources.resources
+C:\Users\Loc Nguyen\source\repos\Lab2Ex2\Lab2Ex2\obj\Debug\Lab2Ex2.csproj.GenerateResource.cache
+C:\Users\Loc Nguyen\source\repos\Lab2Ex2\Lab2Ex2\obj\Debug\Lab2Ex2.csproj.CoreCompileInputs.cache
+C:\Users\Loc Nguyen\source\repos\Lab2Ex2\Lab2Ex2\obj\Debug\Lab2Ex2.exe
+C:\Users\Loc Nguyen\source\repos\Lab2Ex2\Lab2Ex2\obj\Debug\Lab2Ex2.pdb
