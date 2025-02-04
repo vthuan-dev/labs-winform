@@ -1,0 +1,10 @@
+C:\Users\Loc Nguyen\source\repos\Lab6Ex2\Lab6Ex2\bin\Debug\Lab6Ex2.exe.config
+C:\Users\Loc Nguyen\source\repos\Lab6Ex2\Lab6Ex2\bin\Debug\Lab6Ex2.exe
+C:\Users\Loc Nguyen\source\repos\Lab6Ex2\Lab6Ex2\bin\Debug\Lab6Ex2.pdb
+C:\Users\Loc Nguyen\source\repos\Lab6Ex2\Lab6Ex2\obj\Debug\Lab6Ex2.csproj.AssemblyReference.cache
+C:\Users\Loc Nguyen\source\repos\Lab6Ex2\Lab6Ex2\obj\Debug\Lab6Ex2.frmCanBo.resources
+C:\Users\Loc Nguyen\source\repos\Lab6Ex2\Lab6Ex2\obj\Debug\Lab6Ex2.Properties.Resources.resources
+C:\Users\Loc Nguyen\source\repos\Lab6Ex2\Lab6Ex2\obj\Debug\Lab6Ex2.csproj.GenerateResource.cache
+C:\Users\Loc Nguyen\source\repos\Lab6Ex2\Lab6Ex2\obj\Debug\Lab6Ex2.csproj.CoreCompileInputs.cache
+C:\Users\Loc Nguyen\source\repos\Lab6Ex2\Lab6Ex2\obj\Debug\Lab6Ex2.exe
+C:\Users\Loc Nguyen\source\repos\Lab6Ex2\Lab6Ex2\obj\Debug\Lab6Ex2.pdb
