@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\learning\\hk2\\.net\\project-winforms\\Lab6ex03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4935C42-D612-4917-9461-3F44A49225A1}|Lab6ex03\\Lab6ex03.csproj|d:\\learning\\hk2\\.net\\project-winforms\\lab6ex03\\lab6ex03\\clsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4935C42-D612-4917-9461-3F44A49225A1}|Lab6ex03\\Lab6ex03.csproj|solutionrelative:lab6ex03\\clsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4935C42-D612-4917-9461-3F44A49225A1}|Lab6ex03\\Lab6ex03.csproj|d:\\learning\\hk2\\.net\\project-winforms\\lab6ex03\\lab6ex03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4935C42-D612-4917-9461-3F44A49225A1}|Lab6ex03\\Lab6ex03.csproj|solutionrelative:lab6ex03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4935C42-D612-4917-9461-3F44A49225A1}|Lab6ex03\\Lab6ex03.csproj|d:\\learning\\hk2\\.net\\project-winforms\\lab6ex03\\lab6ex03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4935C42-D612-4917-9461-3F44A49225A1}|Lab6ex03\\Lab6ex03.csproj|solutionrelative:lab6ex03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4935C42-D612-4917-9461-3F44A49225A1}|Lab6ex03\\Lab6ex03.csproj|d:\\learning\\hk2\\.net\\project-winforms\\lab6ex03\\lab6ex03\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4935C42-D612-4917-9461-3F44A49225A1}|Lab6ex03\\Lab6ex03.csproj|solutionrelative:lab6ex03\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\learning\\hk2\\.net\\project-winforms\\Lab6ex03\\Lab6ex03\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab6ex03\\Form1.cs",
+              "ToolTip": "D:\\learning\\hk2\\.net\\project-winforms\\Lab6ex03\\Lab6ex03\\Form1.cs",
+              "RelativeToolTip": "Lab6ex03\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T14:12:12.538Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\learning\\hk2\\.net\\project-winforms\\Lab6ex03\\Lab6ex03\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Lab6ex03\\Form1.Designer.cs",
+              "ToolTip": "D:\\learning\\hk2\\.net\\project-winforms\\Lab6ex03\\Lab6ex03\\Form1.Designer.cs",
+              "RelativeToolTip": "Lab6ex03\\Form1.Designer.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAADwv7MAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T14:45:25.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsData.cs",
+              "DocumentMoniker": "D:\\learning\\hk2\\.net\\project-winforms\\Lab6ex03\\Lab6ex03\\clsData.cs",
+              "RelativeDocumentMoniker": "Lab6ex03\\clsData.cs",
+              "ToolTip": "D:\\learning\\hk2\\.net\\project-winforms\\Lab6ex03\\Lab6ex03\\clsData.cs",
+              "RelativeToolTip": "Lab6ex03\\clsData.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAwH0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T14:18:39.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\learning\\hk2\\.net\\project-winforms\\Lab6ex03\\Lab6ex03\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab6ex03\\Form1.cs",
+              "ToolTip": "D:\\learning\\hk2\\.net\\project-winforms\\Lab6ex03\\Lab6ex03\\Form1.cs [Design]",
+              "RelativeToolTip": "Lab6ex03\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T14:11:21.062Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

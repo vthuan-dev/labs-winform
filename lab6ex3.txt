@@ -1,0 +1,99 @@
+CREATE DATABASE ThanhToan;
+GO
+USE ThanhToan;
+GO
+
+
+CREATE TABLE Phong (
+    MaPhong INT PRIMARY KEY, -- Khóa chính
+    TenPhong NVARCHAR(100) NOT NULL -- Tên phòng
+);
+
+
+CREATE TABLE KhachHang (
+    SoHD INT PRIMARY KEY, -- Số hóa đơn (Khóa chính)
+    TenKH NVARCHAR(100) NOT NULL, -- Tên khách hàng
+    SoCMND NVARCHAR(20) NOT NULL, -- Số CMND
+    SoTien DECIMAL(18,2) NOT NULL, -- Số tiền thanh toán
+    NgayTT DATE NOT NULL, -- Ngày thanh toán
+    Phong INT, -- Mã phòng (Khóa ngoại)
+    FOREIGN KEY (Phong) REFERENCES Phong(MaPhong) -- Ràng buộc khóa ngoại
+);
+
+SELECT * FROM KhachHang;
+
+INSERT INTO Phong (MaPhong, TenPhong) VALUES (101, N'Phòng Đơn'), (102, N'Phòng Đôi'), (103, N'Phòng VIP');
+
+INSERT INTO KhachHang (SoHD, TenKH, SoCMND, SoTien, NgayTT, Phong) 
+VALUES 
+(1, N'Nguyễn Tấn Lộc', '123456789', 500000, '2025-02-05', 101),
+(2, N'Trần văn Thuần', '987654321', 750000, '2025-02-06', 102),
+(3, N'Lê Văn C', '456789123', 1200000, '2025-02-07', 103);
+
+
+
+select * from Phong;
+
+
+SELECT name, type_desc, is_disabled 
+FROM sys.sql_logins 
+WHERE name = 'mylogin';
+
+
+USE ThanhToan;
+SELECT dp.name, dp.type_desc, dp.create_date 
+FROM sys.database_principals dp
+WHERE dp.name = 'mylogin';
+
+USE ThanhToan;
+ALTER ROLE db_owner ADD MEMBER mylogin;
+
+ALTER LOGIN mylogin WITH PASSWORD = 'mylogin';
+
+
+
+USE ThanhToan;
+CREATE USER mylogin FOR LOGIN mylogin;
+ALTER ROLE db_owner ADD MEMBER mylogin;
+
+SELECT SERVERPROPERTY('IsIntegratedSecurityOnly');
+
+
+SELECT @@SERVERNAME;
+
+
+SELECT name, type_desc, is_disabled 
+FROM sys.sql_logins 
+WHERE name = 'mylogin';
+
+
+USE ThanhToan;
+SELECT name, type_desc 
+FROM sys.database_principals 
+WHERE name = 'mylogin';
+
+
+USE ThanhToan;
+ALTER ROLE db_owner ADD MEMBER mylogin;
+SELECT SERVERPROPERTY('IsIntegratedSecurityOnly') AS AuthenticationMode;
+
+
+ALTER LOGIN mylogin WITH PASSWORD = 'mylogin';
+
+
+
+SELECT name, type_desc, is_disabled
+FROM sys.sql_logins
+WHERE name = 'mylogin';
+
+USE ThanhToan;
+CREATE USER mylogin FOR LOGIN mylogin;
+ALTER ROLE db_owner ADD MEMBER mylogin;
+
+
+
+SELECT SERVERPROPERTY('IsIntegratedSecurityOnly');
+
+select * from KhachHang;
+
+SELECT SoTien, NgayTT FROM KhachHang;
