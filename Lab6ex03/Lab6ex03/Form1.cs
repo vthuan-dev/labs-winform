@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace Lab6ex03
@@ -12,7 +13,8 @@ namespace Lab6ex03
             LoadPhong();
             LoadNgayThanhToan();
             
-            // Đăng ký sự kiện click cho nút Lưu
+            // Đăng ký sự kiện click cho các nút
+            btnThem.Click += btnThem_Click;
             btnLuu.Click += btnLuu_Click;
         }
 
@@ -26,14 +28,18 @@ namespace Lab6ex03
 
         private void LoadSoPhong()
         {
-            ttSoPhong.Items.Clear();
-            DataTable dt = clsData.GetSoPhong();
-            foreach (DataRow row in dt.Rows)
+            try
             {
-                if (row["Phong"] != DBNull.Value)
+                DataTable dt = clsData.GetPhong();
+                ttSoPhong.Items.Clear();
+                foreach (DataRow row in dt.Rows)
                 {
-                    ttSoPhong.Items.Add(row["Phong"].ToString());
+                    ttSoPhong.Items.Add(row["MaPhong"].ToString());
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi load phòng: {ex.Message}");
             }
         }
 
@@ -59,8 +65,14 @@ namespace Lab6ex03
                 ttSoPhong.Items.Clear();
                 foreach (DataRow row in dt.Rows)
                 {
-                    ttSoPhong.Items.Add(row["MaPhong"].ToString());
+                    // Thêm cả MaPhong và TenPhong vào ComboBox
+                    string maPhong = row["MaPhong"].ToString();
+                    string tenPhong = row["TenPhong"].ToString();
+                    ttSoPhong.Items.Add(maPhong);
                 }
+                
+                // Set SelectedIndex = -1 để không chọn giá trị mặc định
+                ttSoPhong.SelectedIndex = -1;
             }
             catch (Exception ex)
             {
@@ -70,14 +82,43 @@ namespace Lab6ex03
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            int soHDMoi = clsData.GetNextSoHD();
-            soHD.Text = soHDMoi.ToString();
+            try
+            {
+                // Lấy số hóa đơn lớn nhất và cộng 1
+                using (SqlConnection con = new SqlConnection(clsData.ConnectionString))
+                {
+                    con.Open();
+                    string query = "SELECT ISNULL(MAX(SoHD), 0) FROM KhachHang";
+                    using (SqlCommand cmd = new SqlCommand(query, con))
+                    {
+                        int maxSoHD = Convert.ToInt32(cmd.ExecuteScalar());
+                        soHD.Text = (maxSoHD + 1).ToString();
+                    }
+                }
 
-            ttHoten.Text = "";
-            ttCCCD.Text = "";
-            ttSotien.Text = "";
-            ttNgaytt.SelectedIndex = -1;
-            ttSoPhong.SelectedIndex = -1;
+                // Xóa trắng các ô nhập
+                ttHoten.Clear();
+                ttCCCD.Clear();
+                ttSotien.Clear();
+
+                // Reset combobox Số phòng về trạng thái không chọn
+                if (ttSoPhong.Items.Count > 0)
+                {
+                    ttSoPhong.SelectedIndex = -1;
+                }
+
+                // Set ngày thanh toán về ngày hiện tại
+                ttNgaytt.Items.Clear();
+                ttNgaytt.Items.Add(DateTime.Now.ToString("yyyy-MM-dd"));
+                ttNgaytt.SelectedIndex = 0;
+
+                // Focus vào ô họ tên
+                ttHoten.Focus();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi tạo hợp đồng mới: {ex.Message}");
+            }
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
@@ -114,17 +155,14 @@ namespace Lab6ex03
                 DateTime ngayTT = DateTime.Parse(ttNgaytt.Text);
                 int maPhong = int.Parse(ttSoPhong.Text);
 
-                bool result = clsData.SaveKhachHang(soHopDong, tenKH, soCMND, soTien, ngayTT, maPhong);
-                if (result)
+                if (clsData.SaveKhachHang(soHopDong, tenKH, soCMND, soTien, ngayTT, maPhong))
                 {
                     MessageBox.Show("Lưu thành công!");
-                    // Reset form sau khi lưu thành công
-                    btnThem_Click(null, null);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi khi lưu: {ex.Message}\nStack Trace: {ex.StackTrace}");
+                MessageBox.Show($"Lỗi khi lưu: {ex.Message}");
             }
         }
 
