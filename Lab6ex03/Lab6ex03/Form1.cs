@@ -9,6 +9,11 @@ namespace Lab6ex03
         public Form1()
         {
             InitializeComponent();
+            LoadPhong();
+            LoadNgayThanhToan();
+            
+            // Đăng ký sự kiện click cho nút Lưu
+            btnLuu.Click += btnLuu_Click;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -16,6 +21,7 @@ namespace Lab6ex03
             clsData.TestConnection();
             LoadNgayThanhToan();
             LoadSoPhong();
+            btnThem_Click(null, null);
         }
 
         private void LoadSoPhong()
@@ -33,17 +39,34 @@ namespace Lab6ex03
 
         private void LoadNgayThanhToan()
         {
-            ttNgaytt.Items.Clear();
-            DataTable dt = clsData.GetNgayThanhToan();
-            foreach (DataRow row in dt.Rows)
+            try 
             {
-                if (row["NgayTT"] != DBNull.Value)
-                {
-                    ttNgaytt.Items.Add(Convert.ToDateTime(row["NgayTT"]).ToString("yyyy-MM-dd"));
-                }
+                // Thêm ngày hiện tại vào ComboBox
+                ttNgaytt.Items.Add(DateTime.Now.ToString("yyyy-MM-dd"));
+                ttNgaytt.SelectedIndex = 0;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi load ngày thanh toán: {ex.Message}");
             }
         }
 
+        private void LoadPhong()
+        {
+            try
+            {
+                DataTable dt = clsData.GetPhong();
+                ttSoPhong.Items.Clear();
+                foreach (DataRow row in dt.Rows)
+                {
+                    ttSoPhong.Items.Add(row["MaPhong"].ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi load phòng: {ex.Message}");
+            }
+        }
 
         private void btnThem_Click(object sender, EventArgs e)
         {
@@ -61,32 +84,49 @@ namespace Lab6ex03
         {
             try
             {
-                int soHDValue = Convert.ToInt32(soHD.Text);
-                string tenKHValue = ttHoten.Text;
-                string soCMNDValue = ttCCCD.Text;
-                decimal soTienValue = Convert.ToDecimal(ttSotien.Text);
-                DateTime ngayTTValue = Convert.ToDateTime(ttNgaytt.SelectedItem); // Lấy ngày thanh toán từ ComboBox
-                int maPhongValue = Convert.ToInt32(ttSoPhong.SelectedItem?.ToString() ?? "0"); // Kiểm tra nếu maPhongValue hợp lệ
-
-                // Kiểm tra và lưu vào cơ sở dữ liệu
-                if (clsData.SaveKhachHang(soHDValue, tenKHValue, soCMNDValue, soTienValue, ngayTTValue, maPhongValue))
+                // Kiểm tra dữ liệu đầu vào
+                if (string.IsNullOrEmpty(soHD.Text))
                 {
-                    // Nếu lưu thành công, làm mới lại form và tải lại dữ liệu
-                    MessageBox.Show("Lưu hóa đơn thành công!");
-                    LoadSoPhong();
-                    LoadNgayThanhToan();
+                    MessageBox.Show("Vui lòng nhấn nút Thêm để tạo số hợp đồng mới!");
+                    return;
                 }
-                else
+
+                if (string.IsNullOrEmpty(ttHoten.Text) || 
+                    string.IsNullOrEmpty(ttCCCD.Text) || 
+                    string.IsNullOrEmpty(ttSotien.Text) ||
+                    ttSoPhong.SelectedItem == null ||
+                    ttNgaytt.SelectedItem == null)
                 {
-                    MessageBox.Show("Lưu hóa đơn thất bại!");
+                    MessageBox.Show("Vui lòng nhập đầy đủ thông tin!");
+                    return;
+                }
+
+                int soHopDong = int.Parse(soHD.Text);
+                string tenKH = ttHoten.Text.Trim();
+                string soCMND = ttCCCD.Text.Trim();
+                decimal soTien;
+                if (!decimal.TryParse(ttSotien.Text, out soTien))
+                {
+                    MessageBox.Show("Số tiền không hợp lệ!");
+                    return;
+                }
+                
+                DateTime ngayTT = DateTime.Parse(ttNgaytt.Text);
+                int maPhong = int.Parse(ttSoPhong.Text);
+
+                bool result = clsData.SaveKhachHang(soHopDong, tenKH, soCMND, soTien, ngayTT, maPhong);
+                if (result)
+                {
+                    MessageBox.Show("Lưu thành công!");
+                    // Reset form sau khi lưu thành công
+                    btnThem_Click(null, null);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi nhập dữ liệu: " + ex.Message);
+                MessageBox.Show($"Lỗi khi lưu: {ex.Message}\nStack Trace: {ex.StackTrace}");
             }
         }
-
 
         private void btnThoat_Click(object sender, EventArgs e)
         {

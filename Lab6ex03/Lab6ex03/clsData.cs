@@ -99,6 +99,22 @@ namespace Lab6ex03
             return dt;
         }
 
+        public static DataTable GetPhong()
+        {
+            using (SqlConnection con = new SqlConnection(ConnectionString))
+            {
+                con.Open();
+                string query = "SELECT MaPhong, TenPhong FROM Phong";
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    DataTable dt = new DataTable();
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    da.Fill(dt);
+                    return dt;
+                }
+            }
+        }
+
         public static bool SaveKhachHang(int soHD, string tenKH, string soCMND, decimal soTien, DateTime ngayTT, int maPhong)
         {
             try
@@ -116,9 +132,11 @@ namespace Lab6ex03
                         cmd.Parameters.AddWithValue("@NgayTT", ngayTT);
                         cmd.Parameters.AddWithValue("@Phong", maPhong);
 
-                        MessageBox.Show("Trước khi lưu vào cơ sở dữ liệu!");
+                        // Thêm logging để kiểm tra giá trị
+                        string debugInfo = $"Giá trị truyền vào:\nSoHD: {soHD}\nTenKH: {tenKH}\nSoCMND: {soCMND}\nSoTien: {soTien}\nNgayTT: {ngayTT}\nPhong: {maPhong}";
+                        MessageBox.Show(debugInfo);
 
-                        int result = cmd.ExecuteNonQuery(); // Kiểm tra số dòng bị ảnh hưởng
+                        int result = cmd.ExecuteNonQuery();
                         if (result > 0)
                         {
                             MessageBox.Show("Lưu hóa đơn thành công!");
@@ -134,7 +152,8 @@ namespace Lab6ex03
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi lưu dữ liệu: " + ex.Message);
+                // Chi tiết hóa thông báo lỗi
+                MessageBox.Show($"Lỗi khi lưu dữ liệu:\nMessage: {ex.Message}\nStack Trace: {ex.StackTrace}");
                 return false;
             }
         }
