@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D655C410-B4B4-4C46-95DE-4F9B7DC6D116}|Lab08_prjSinhVien\\Lab08_prjSinhVien.csproj|d:\\downloads\\lab08_prjsinhvien\\lab08_prjsinhvien\\lab08_prjsinhvien\\lab08_prjsinhvien\\clsconnectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D655C410-B4B4-4C46-95DE-4F9B7DC6D116}|Lab08_prjSinhVien\\Lab08_prjSinhVien.csproj|solutionrelative:lab08_prjsinhvien\\clsconnectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D655C410-B4B4-4C46-95DE-4F9B7DC6D116}|Lab08_prjSinhVien\\Lab08_prjSinhVien.csproj|D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\lab08_prjsinhvien\\frmtrangcanbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D655C410-B4B4-4C46-95DE-4F9B7DC6D116}|Lab08_prjSinhVien\\Lab08_prjSinhVien.csproj|solutionrelative:lab08_prjsinhvien\\frmtrangcanbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D655C410-B4B4-4C46-95DE-4F9B7DC6D116}|Lab08_prjSinhVien\\Lab08_prjSinhVien.csproj|d:\\downloads\\lab08_prjsinhvien\\lab08_prjsinhvien\\lab08_prjsinhvien\\lab08_prjsinhvien\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D655C410-B4B4-4C46-95DE-4F9B7DC6D116}|Lab08_prjSinhVien\\Lab08_prjSinhVien.csproj|solutionrelative:lab08_prjsinhvien\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D655C410-B4B4-4C46-95DE-4F9B7DC6D116}|Lab08_prjSinhVien\\Lab08_prjSinhVien.csproj|D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\lab08_prjsinhvien\\frmtrangcanbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D655C410-B4B4-4C46-95DE-4F9B7DC6D116}|Lab08_prjSinhVien\\Lab08_prjSinhVien.csproj|solutionrelative:lab08_prjsinhvien\\frmtrangcanbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D655C410-B4B4-4C46-95DE-4F9B7DC6D116}|Lab08_prjSinhVien\\Lab08_prjSinhVien.csproj|D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\lab08_prjsinhvien\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D655C410-B4B4-4C46-95DE-4F9B7DC6D116}|Lab08_prjSinhVien\\Lab08_prjSinhVien.csproj|solutionrelative:lab08_prjsinhvien\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsConnectDB.cs",
+              "DocumentMoniker": "D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\clsConnectDB.cs",
+              "RelativeDocumentMoniker": "Lab08_prjSinhVien\\clsConnectDB.cs",
+              "ToolTip": "D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\clsConnectDB.cs",
+              "RelativeToolTip": "Lab08_prjSinhVien\\clsConnectDB.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:53:29.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmTrangCanBo.cs",
+              "DocumentMoniker": "D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\frmTrangCanBo.cs",
+              "RelativeDocumentMoniker": "Lab08_prjSinhVien\\frmTrangCanBo.cs",
+              "ToolTip": "D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\frmTrangCanBo.cs",
+              "RelativeToolTip": "Lab08_prjSinhVien\\frmTrangCanBo.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T01:44:05.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmDangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "Lab08_prjSinhVien\\frmDangNhap.cs",
+              "ToolTip": "D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\frmDangNhap.cs [Design]",
+              "RelativeToolTip": "Lab08_prjSinhVien\\frmDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T01:44:05.53Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmTrangCanBo.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\frmTrangCanBo.cs",
+              "RelativeDocumentMoniker": "Lab08_prjSinhVien\\frmTrangCanBo.cs",
+              "ToolTip": "D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\frmTrangCanBo.cs [Design]",
+              "RelativeToolTip": "Lab08_prjSinhVien\\frmTrangCanBo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T01:44:05.599Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmDangNhap.cs",
+              "DocumentMoniker": "D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "Lab08_prjSinhVien\\frmDangNhap.cs",
+              "ToolTip": "D:\\Downloads\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\Lab08_prjSinhVien\\frmDangNhap.cs",
+              "RelativeToolTip": "Lab08_prjSinhVien\\frmDangNhap.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAjwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T01:44:05.6Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
