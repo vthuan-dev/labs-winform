@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Khang_DHCT\\2024-2025\\.NET\\CT310H-Labs-master\\Lab9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{811E9777-E80C-490F-80FF-9762874AF9E4}|Register\\Register.csproj|d:\\khang_dhct\\2024-2025\\.net\\ct310h-labs-master\\lab9\\register\\customerlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{811E9777-E80C-490F-80FF-9762874AF9E4}|Register\\Register.csproj|solutionrelative:register\\customerlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811E9777-E80C-490F-80FF-9762874AF9E4}|Register\\Register.csproj|D:\\Khang_DHCT\\2024-2025\\.NET\\CT310H-Labs-master\\Lab9\\register\\customerlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811E9777-E80C-490F-80FF-9762874AF9E4}|Register\\Register.csproj|solutionrelative:register\\customerlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerList.aspx.cs",
+              "DocumentMoniker": "D:\\Khang_DHCT\\2024-2025\\.NET\\CT310H-Labs-master\\Lab9\\Register\\CustomerList.aspx.cs",
+              "RelativeDocumentMoniker": "Register\\CustomerList.aspx.cs",
+              "ToolTip": "D:\\Khang_DHCT\\2024-2025\\.NET\\CT310H-Labs-master\\Lab9\\Register\\CustomerList.aspx.cs",
+              "RelativeToolTip": "Register\\CustomerList.aspx.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwDwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T02:07:41.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerList.aspx",
+              "DocumentMoniker": "D:\\Khang_DHCT\\2024-2025\\.NET\\CT310H-Labs-master\\Lab9\\Register\\CustomerList.aspx",
+              "RelativeDocumentMoniker": "Register\\CustomerList.aspx",
+              "ToolTip": "D:\\Khang_DHCT\\2024-2025\\.NET\\CT310H-Labs-master\\Lab9\\Register\\CustomerList.aspx",
+              "RelativeToolTip": "Register\\CustomerList.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-09T02:07:36.311Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
